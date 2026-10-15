@@ -1,0 +1,92 @@
+
+header{
+    color:white;
+    background-color: #0066FF;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 30%;
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.recomendaciones {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.recomendaciones h3 {
+    color: #0047B3;
+    border-left: 6px solid #0066FF;
+    padding-left: 10px;
+}
+
+.intro {
+    margin: 15px 0 25px;
+    color: #4A4E57;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #FFFFFF;
+    padding: 25px;
+    border: 2px solid #D9D9D9;
+    border-top: 4px solid #0066FF;
+    border-radius: 8px;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #2B2D31;
+    margin-top: 10px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #0066FF;
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #0066FF;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background: #0047B3;
+    color: #FFFFFF;
+}

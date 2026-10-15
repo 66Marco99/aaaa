@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones | NovaSport</title>
+    <link rel="stylesheet" href="producto.css">
+    <link rel="stylesheet" href="/pagina.html/estilos/recomendaciones.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">NovaSport</a></h1>
+        <nav class="menu">
+            <a href="visitanos.html">Visitanos</a>
+            <a href="productos.html">Productos</a>
+            <a href="sobrenosotros.html">Sobre nosotros</a>
+            <a href="recomendaciones.html">Recomendaciones</a>
+        </nav>
+    </header>
+
+    <main class="cuerpo">
+        <section class="recomendaciones">
+            <h3>Déjanos tu recomendación</h3>
+            <p class="intro">¿Tienes una idea para mejorar la tienda? Cuéntanosla aquí.</p>
+
+            <form class="formulario" action="mailto:tu-correo@ejemplo.com" method="post" enctype="text/plain">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Carlos" required>
+
+                <label for="correo">Tu correo (opcional)</label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+
+                <label for="mensaje">Tu mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe aquí tu sugerencia..." required></textarea>
+
+                <button type="submit">Enviar sugerencia</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
